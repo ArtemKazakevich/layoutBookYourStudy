@@ -1,0 +1,166 @@
+.promotion_and_registration {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.promotion {
+  background: repeating-linear-gradient(135deg, #f47d50, #f36734 5px) fixed;
+  width: 35%;
+  padding: 3% 3% 3% 10%; }
+  .promotion h2 {
+    font-size: 3rem;
+    color: #ffffff;
+    font-family: "Roboto";
+    margin: 0; }
+  .promotion p {
+    font-size: 1.5rem;
+    color: #ffffff;
+    font-family: "Roboto"; }
+
+.promotion_and_registration .form {
+  background-color: #fafafa;
+  padding: 3%;
+  width: 32%; }
+  .promotion_and_registration .form h2 {
+    font-size: 1.5rem;
+    color: #1c1c1c;
+    font-family: "Roboto Condensed"; }
+  .promotion_and_registration .form p {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    color: #999999;
+    font-family: "Roboto"; }
+  .promotion_and_registration .form button {
+    font-size: 0.875rem;
+    color: #ffffff;
+    font-family: "Roboto";
+    border: none;
+    border-radius: 0.4rem;
+    background-color: #f07b4f;
+    padding: 3%;
+    display: block;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    cursor: pointer;
+    margin-top: 3%;
+    outline: none; }
+  .promotion_and_registration .form input {
+    display: block;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    border: 0.1rem #d9dfd9 solid;
+    border-radius: 0.2rem;
+    font-size: 1rem;
+    color: #1c1c1c;
+    font-family: "Roboto Condensed";
+    padding: 1%; }
+  .promotion_and_registration .form a {
+    font-size: 0.875rem;
+    color: #ffffff;
+    font-family: "Roboto";
+    text-decoration: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    outline: none;
+    padding: 5%;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: -webkit-transform;
+    transition-property: -webkit-transform;
+    transition-property: transform;
+    transition-property: transform, -webkit-transform; }
+    .promotion_and_registration .form a:hover {
+      -webkit-transform: translateX(8px);
+      transform: translateX(8px); }
+    .promotion_and_registration .form a p {
+      color: #ffffff; }
+
+.registration_social_network {
+  margin-right: 50%; }
+
+.vk, .facebook, .google {
+  background: #45668e;
+  background-image: url(../img/promotion_and_registration_form/vertical_line.png);
+  background-repeat: no-repeat;
+  background-position: 37% 50%;
+  border-radius: 0.4rem; }
+  .vk img, .facebook img, .google img {
+    display: inline-block;
+    margin: 0; }
+  .vk p, .facebook p, .google p {
+    display: inline-block;
+    margin: 0; }
+
+.facebook {
+  background: #3b5998;
+  background-image: url(../img/promotion_and_registration_form/vertical_line.png);
+  background-repeat: no-repeat;
+  background-position: 37% 50%;
+  margin: 7% 0; }
+
+.google {
+  background: #dc4e41;
+  background-image: url(../img/promotion_and_registration_form/vertical_line.png);
+  background-repeat: no-repeat;
+  background-position: 37% 50%; }
+
+.our_social_networks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 35%;
+  padding: 3% 10% 3% 3%; }
+  .our_social_networks h2 {
+    font-size: 1.5rem;
+    color: #1c1c1c;
+    font-family: "Roboto Condensed"; }
+  .our_social_networks img {
+    width: 100%; }
+
+.social_networks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around; }
+  .social_networks a {
+    display: block;
+    font-size: 0.875rem;
+    color: #333333;
+    font-family: "Roboto";
+    text-decoration: none;
+    outline: none;
+    padding: 3%;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: -webkit-transform;
+    transition-property: -webkit-transform;
+    transition-property: transform;
+    transition-property: transform, -webkit-transform;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out; }
+    .social_networks a:hover {
+      background-color: #e4e0e0;
+      padding: 3%;
+      border-radius: 0.3rem;
+      color: #adadad;
+      -webkit-transform: translateY(-8px);
+      transform: translateY(-8px); }

@@ -1,0 +1,89 @@
+footer {
+  padding: 3% 10%;
+  background: repeating-linear-gradient(135deg, #373737, #343434 5px) fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+  footer h2 {
+    font-size: 1.5rem;
+    color: #fafafa;
+    font-family: "Roboto Condensed";
+    margin: 0; }
+  footer p {
+    font-size: 0.875rem;
+    color: #954c31;
+    font-family: "Roboto"; }
+    footer p a {
+      font-size: 0.875rem;
+      color: #954c31;
+      font-family: "Roboto";
+      text-decoration: none;
+      outline: none; }
+  footer span {
+    font-size: 1.5rem;
+    color: #808080;
+    font-family: "Roboto"; }
+  footer .logo_color {
+    font-size: 1.5rem;
+    color: #fafafa;
+    font-family: "Roboto Condensed";
+    text-decoration: none;
+    outline: none; }
+    footer .logo_color:hover {
+      border-bottom: 2px solid #ff6600; }
+
+.hover_underline:hover {
+  border-bottom: 2px solid #ff6600; }
+
+.wrapper_social_contact {
+  margin-top: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.wrapper_social_contact ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1; }
+
+.wrapper_social_contact a {
+  display: block;
+  text-decoration: none;
+  outline: none; }
+
+.wrapper_social_contact li {
+  display: block;
+  margin: 0 1%;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: -webkit-transform;
+  transition-property: -webkit-transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out; }
+
+.wrapper_social_contact li:hover {
+  -webkit-transform: translateY(-8px);
+  transform: translateY(-8px); }

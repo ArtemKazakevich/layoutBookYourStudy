@@ -13,6 +13,9 @@ $fontFamily_2: "Roboto Condensed";
     font-family: $fontFamily_2;
     text-decoration: none;
     outline: none;
+    &:hover{
+      border-bottom: 2px solid #ff6600;
+    }
   }
   & h2 {
     font-size: 1.5rem;
@@ -34,6 +37,9 @@ $fontFamily_2: "Roboto Condensed";
       text-align: right;
       text-decoration: none;
       outline: none;
+      &:hover{
+        border-bottom: 2px solid #ff6600;
+      }
     }
   }
 }

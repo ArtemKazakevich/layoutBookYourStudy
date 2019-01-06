@@ -1,0 +1,77 @@
+$fontFamily_1: "Roboto";
+$fontFamily_2: "Roboto Condensed";
+
+footer {
+  padding: 3% 10%;
+  background: repeating-linear-gradient(135deg, #373737, #343434 5px) fixed;
+  display: flex;
+  justify-content: space-between;
+
+  & h2 {
+    font-size: 1.5rem;
+    color: #fafafa;
+    font-family: $fontFamily_2;
+    margin: 0;
+  }
+  & p {
+    font-size: 0.875rem;
+    color: #954c31;
+    font-family: $fontFamily_1;
+    & a{
+      font-size: 0.875rem;
+      color: #954c31;
+      font-family: $fontFamily_1;
+      text-decoration: none;
+      outline: none;
+    }
+  }
+  & span {
+    font-size: 1.5rem;
+    color: #808080;
+    font-family: $fontFamily_1;
+  }
+  & .logo_color{
+    font-size: 1.5rem;
+    color: #fafafa;
+    font-family: $fontFamily_2;
+    text-decoration: none;
+    outline: none;
+    &:hover{
+      border-bottom: 2px solid #ff6600;
+    }
+  }
+}
+.hover_underline:hover{
+  border-bottom: 2px solid #ff6600;
+}
+.wrapper_social_contact {
+  margin-top: 20%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.wrapper_social_contact ul {
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  flex-grow: 1;
+}
+.wrapper_social_contact a {
+  display: block;
+  text-decoration: none;
+  outline: none;
+}
+.wrapper_social_contact li {
+  display: block;
+  margin: 0 1%;
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  transition-duration: 0.3s;
+  transition-property: transform;
+  transition-timing-function: ease-out;
+}
+.wrapper_social_contact li:hover {
+  transform: translateY(-8px);
+}

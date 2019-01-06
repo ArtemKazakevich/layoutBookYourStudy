@@ -1,0 +1,85 @@
+.wrapper_learning_search {
+  background: url(../img/where_to_find_the_program/Background.png) no-repeat;
+  background-size: cover; }
+
+.background_learning_search {
+  padding: 3% 10%;
+  background: repeating-linear-gradient(135deg, #259f6b, #229463 5px) fixed;
+  opacity: 0.8; }
+  .background_learning_search h2 {
+    font-size: 2.25rem;
+    color: #ffffff;
+    font-family: "Roboto Condensed"; }
+
+.list_of_links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-line-pack: justify;
+  align-content: space-between;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+
+.link {
+  padding: 3%;
+  width: 32%;
+  background-color: white;
+  border-left: 0.6rem #dcdcdc solid;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 1% 0; }
+  .link h3 {
+    font-size: 1.5rem;
+    color: #111111;
+    font-family: "Roboto";
+    margin: 0; }
+  .link a {
+    font-size: 0.875rem;
+    color: #f47d50;
+    font-family: "Roboto";
+    outline: none; }
+  .link p {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    color: #111111;
+    font-family: "Roboto"; }
+  .link ul {
+    list-style: none;
+    padding: 0;
+    margin: 0; }
+
+.margin_link {
+  margin: 5% 0;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0); }
+  .margin_link:hover {
+    -webkit-animation-name: margin_link;
+    animation-name: margin_link;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite; }
+
+@-webkit-keyframes margin_link {
+  25% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1); }
+  75% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9); } }
+
+@keyframes margin_link {
+  25% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1); }
+  75% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9); } }

@@ -29,6 +29,8 @@ body {
     font-family: "Roboto Condensed";
     text-decoration: none;
     outline: none; }
+    .wrapper_contacts a:hover {
+      border-bottom: 2px solid #ff6600; }
   .wrapper_contacts h2 {
     font-size: 1.5rem;
     font-family: "Roboto";
@@ -47,6 +49,8 @@ body {
       text-align: right;
       text-decoration: none;
       outline: none; }
+      .wrapper_contacts p a:hover {
+        border-bottom: 2px solid #ff6600; }
 
 .wrapper_general_information {
   background: url(../img/header/Background.png) no-repeat;
@@ -226,7 +230,7 @@ body {
     margin-top: 3%; }
 
 .wrapper_booking_training {
-  padding: 5% 10%; }
+  padding: 3% 10%; }
   .wrapper_booking_training h2 {
     font-size: 2.25rem;
     color: #1c1c1c;
@@ -260,3 +264,403 @@ body {
 
 .negotiations {
   background: url(../img/who_books/negotiations.png) no-repeat top left 50%; }
+
+.promotion_and_registration {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.promotion {
+  background: repeating-linear-gradient(135deg, #f47d50, #f36734 5px) fixed;
+  width: 35%;
+  padding: 3% 3% 3% 10%; }
+  .promotion h2 {
+    font-size: 3rem;
+    color: #ffffff;
+    font-family: "Roboto";
+    margin: 0; }
+  .promotion p {
+    font-size: 1.5rem;
+    color: #ffffff;
+    font-family: "Roboto"; }
+
+.promotion_and_registration .form {
+  background-color: #fafafa;
+  padding: 3%;
+  width: 32%; }
+  .promotion_and_registration .form h2 {
+    font-size: 1.5rem;
+    color: #1c1c1c;
+    font-family: "Roboto Condensed"; }
+  .promotion_and_registration .form p {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    color: #999999;
+    font-family: "Roboto"; }
+  .promotion_and_registration .form button {
+    font-size: 0.875rem;
+    color: #ffffff;
+    font-family: "Roboto";
+    border: none;
+    border-radius: 0.4rem;
+    background-color: #f07b4f;
+    padding: 3%;
+    display: block;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    cursor: pointer;
+    margin-top: 3%;
+    outline: none; }
+  .promotion_and_registration .form input {
+    display: block;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    border: 0.1rem #d9dfd9 solid;
+    border-radius: 0.2rem;
+    font-size: 1rem;
+    color: #1c1c1c;
+    font-family: "Roboto Condensed";
+    padding: 1%; }
+  .promotion_and_registration .form a {
+    font-size: 0.875rem;
+    color: #ffffff;
+    font-family: "Roboto";
+    text-decoration: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    outline: none;
+    padding: 5%;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: -webkit-transform;
+    transition-property: -webkit-transform;
+    transition-property: transform;
+    transition-property: transform, -webkit-transform; }
+    .promotion_and_registration .form a:hover {
+      -webkit-transform: translateX(8px);
+      transform: translateX(8px); }
+    .promotion_and_registration .form a p {
+      color: #ffffff; }
+
+.registration_social_network {
+  margin-right: 50%; }
+
+.vk, .facebook, .google {
+  background: #45668e;
+  background-image: url(../img/promotion_and_registration_form/vertical_line.png);
+  background-repeat: no-repeat;
+  background-position: 37% 50%;
+  border-radius: 0.4rem; }
+  .vk img, .facebook img, .google img {
+    display: inline-block;
+    margin: 0; }
+  .vk p, .facebook p, .google p {
+    display: inline-block;
+    margin: 0; }
+
+.facebook {
+  background: #3b5998;
+  background-image: url(../img/promotion_and_registration_form/vertical_line.png);
+  background-repeat: no-repeat;
+  background-position: 37% 50%;
+  margin: 7% 0; }
+
+.google {
+  background: #dc4e41;
+  background-image: url(../img/promotion_and_registration_form/vertical_line.png);
+  background-repeat: no-repeat;
+  background-position: 37% 50%; }
+
+.our_social_networks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 35%;
+  padding: 3% 10% 3% 3%; }
+  .our_social_networks h2 {
+    font-size: 1.5rem;
+    color: #1c1c1c;
+    font-family: "Roboto Condensed"; }
+  .our_social_networks img {
+    width: 100%; }
+
+.social_networks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around; }
+  .social_networks a {
+    display: block;
+    font-size: 0.875rem;
+    color: #333333;
+    font-family: "Roboto";
+    text-decoration: none;
+    outline: none;
+    padding: 3%;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: -webkit-transform;
+    transition-property: -webkit-transform;
+    transition-property: transform;
+    transition-property: transform, -webkit-transform;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out; }
+    .social_networks a:hover {
+      background-color: #e4e0e0;
+      padding: 3%;
+      border-radius: 0.3rem;
+      color: #adadad;
+      -webkit-transform: translateY(-8px);
+      transform: translateY(-8px); }
+
+.wrapper_how_it_works {
+  padding: 3% 10%; }
+  .wrapper_how_it_works h2 {
+    font-size: 2.25rem;
+    color: #1c1c1c;
+    font-family: "Roboto Condensed"; }
+
+.steps {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+  .steps img {
+    width: 100%; }
+
+.wrapper_steps {
+  width: 28%; }
+  .wrapper_steps ul {
+    list-style: none;
+    padding: 0;
+    margin: 0; }
+  .wrapper_steps h3 {
+    font-size: 1.2rem;
+    color: #1c1c1c;
+    font-family: "Roboto"; }
+  .wrapper_steps p {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    color: #333333;
+    font-family: "Roboto"; }
+  .wrapper_steps span {
+    font-size: 1rem;
+    color: #f47d50;
+    font-family: "Roboto";
+    font-weight: bold; }
+
+.step_background {
+  padding: 3% 3% 3% 20%;
+  background: url(../img/how_it_works/step.png) no-repeat left center; }
+
+.picture_indent {
+  padding-right: 40%; }
+
+.wrapper_learning_search {
+  background: url(../img/where_to_find_the_program/Background.png) no-repeat;
+  background-size: cover; }
+
+.background_learning_search {
+  padding: 3% 10%;
+  background: repeating-linear-gradient(135deg, #259f6b, #229463 5px) fixed;
+  opacity: 0.8; }
+  .background_learning_search h2 {
+    font-size: 2.25rem;
+    color: #ffffff;
+    font-family: "Roboto Condensed"; }
+
+.list_of_links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-line-pack: justify;
+  align-content: space-between;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+
+.link {
+  padding: 3%;
+  width: 32%;
+  background-color: white;
+  border-left: 0.6rem #dcdcdc solid;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 1% 0; }
+  .link h3 {
+    font-size: 1.5rem;
+    color: #111111;
+    font-family: "Roboto";
+    margin: 0; }
+  .link a {
+    font-size: 0.875rem;
+    color: #f47d50;
+    font-family: "Roboto";
+    outline: none; }
+  .link p {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    color: #111111;
+    font-family: "Roboto"; }
+  .link ul {
+    list-style: none;
+    padding: 0;
+    margin: 0; }
+
+.margin_link {
+  margin: 5% 0;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0); }
+  .margin_link:hover {
+    -webkit-animation-name: margin_link;
+    animation-name: margin_link;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite; }
+
+@-webkit-keyframes margin_link {
+  25% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1); }
+  75% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9); } }
+
+@keyframes margin_link {
+  25% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1); }
+  75% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9); } }
+
+.wrapper_registration_form {
+  padding: 3% 10%;
+  background-color: #fafafa;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+  .wrapper_registration_form .form {
+    padding: 3%; }
+
+footer {
+  padding: 3% 10%;
+  background: repeating-linear-gradient(135deg, #373737, #343434 5px) fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+  footer h2 {
+    font-size: 1.5rem;
+    color: #fafafa;
+    font-family: "Roboto Condensed";
+    margin: 0; }
+  footer p {
+    font-size: 0.875rem;
+    color: #954c31;
+    font-family: "Roboto"; }
+    footer p a {
+      font-size: 0.875rem;
+      color: #954c31;
+      font-family: "Roboto";
+      text-decoration: none;
+      outline: none; }
+  footer span {
+    font-size: 1.5rem;
+    color: #808080;
+    font-family: "Roboto"; }
+  footer .logo_color {
+    font-size: 1.5rem;
+    color: #fafafa;
+    font-family: "Roboto Condensed";
+    text-decoration: none;
+    outline: none; }
+    footer .logo_color:hover {
+      border-bottom: 2px solid #ff6600; }
+
+.hover_underline:hover {
+  border-bottom: 2px solid #ff6600; }
+
+.wrapper_social_contact {
+  margin-top: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.wrapper_social_contact ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1; }
+
+.wrapper_social_contact a {
+  display: block;
+  text-decoration: none;
+  outline: none; }
+
+.wrapper_social_contact li {
+  display: block;
+  margin: 0 1%;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: -webkit-transform;
+  transition-property: -webkit-transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out; }
+
+.wrapper_social_contact li:hover {
+  -webkit-transform: translateY(-8px);
+  transform: translateY(-8px); }

@@ -1,0 +1,75 @@
+$fontFamily_1: "Roboto";
+$fontFamily_2: "Roboto Condensed";
+
+.wrapper_learning_search {
+  background: url(../img/where_to_find_the_program/Background.png) no-repeat;
+  background-size: cover;
+}
+.background_learning_search {
+  padding: 3% 10%;
+  background: repeating-linear-gradient(135deg, #259f6b, #229463 5px) fixed;
+  opacity: 0.8;
+  & h2 {
+    font-size: 2.25rem;
+    color: #ffffff;
+    font-family: $fontFamily_2;
+  }
+}
+.list_of_links {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  justify-content: space-between;
+}
+.link {
+  padding: 3%;
+  width: 32%;
+  background-color: rgba($color: #ffffff, $alpha: 1);
+  border-left: 0.6rem #dcdcdc solid;
+  box-sizing: border-box;
+  margin: 1% 0;
+  & h3 {
+    font-size: 1.5rem;
+    color: #111111;
+    font-family: $fontFamily_1;
+    margin: 0;
+  }
+  & a {
+    font-size: 0.875rem;
+    color: #f47d50;
+    font-family: $fontFamily_1;
+    outline: none;
+  }
+  & p {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    color: #111111;
+    font-family: $fontFamily_1;
+  }
+  & ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+}
+.margin_link {
+  margin: 5% 0;
+  vertical-align: middle;
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+
+  &:hover{
+    animation-name: margin_link;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  }
+}
+@keyframes margin_link {
+  25% {
+    transform: scale(1.1);
+  }
+  75% {
+    transform: scale(0.9);
+  }
+}

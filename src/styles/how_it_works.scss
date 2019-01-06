@@ -1,0 +1,50 @@
+$fontFamily_1: "Roboto";
+$fontFamily_2: "Roboto Condensed";
+
+.wrapper_how_it_works {
+  padding: 3% 10%;
+  & h2 {
+    font-size: 2.25rem;
+    color: #1c1c1c;
+    font-family: $fontFamily_2;
+  }
+}
+.steps {
+  display: flex;
+  justify-content: space-between;
+  & img{
+    width: 100%;
+  }
+}
+.wrapper_steps {
+  width: 28%;
+  & ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  & h3 {
+    font-size: 1.2rem;
+    color: #1c1c1c;
+    font-family: $fontFamily_1;
+  }
+  & p {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    color: #333333;
+    font-family: $fontFamily_1;
+  }
+  & span {
+    font-size: 1rem;
+    color: #f47d50;
+    font-family: $fontFamily_1;
+    font-weight: bold;
+  }
+}
+.step_background{
+  padding: 3% 3% 3% 20%;
+  background: url(../img/how_it_works/step.png) no-repeat left center;
+}
+.picture_indent{
+  padding-right: 40%;
+}

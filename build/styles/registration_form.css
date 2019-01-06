@@ -1,0 +1,11 @@
+.wrapper_registration_form {
+  padding: 3% 10%;
+  background-color: #fafafa;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+  .wrapper_registration_form .form {
+    padding: 3%; }

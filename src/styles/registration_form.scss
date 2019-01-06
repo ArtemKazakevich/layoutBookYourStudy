@@ -1,0 +1,13 @@
+$fontFamily_1: "Roboto";
+$fontFamily_2: "Roboto Condensed";
+
+.wrapper_registration_form{
+  padding: 3% 10%;
+  background-color: #fafafa;
+  display: flex;
+  justify-content: space-between;
+
+  & .form{
+    padding: 3%;
+  }
+}

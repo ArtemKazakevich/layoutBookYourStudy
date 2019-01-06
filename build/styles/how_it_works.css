@@ -1,0 +1,44 @@
+.wrapper_how_it_works {
+  padding: 3% 10%; }
+  .wrapper_how_it_works h2 {
+    font-size: 2.25rem;
+    color: #1c1c1c;
+    font-family: "Roboto Condensed"; }
+
+.steps {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+  .steps img {
+    width: 100%; }
+
+.wrapper_steps {
+  width: 28%; }
+  .wrapper_steps ul {
+    list-style: none;
+    padding: 0;
+    margin: 0; }
+  .wrapper_steps h3 {
+    font-size: 1.2rem;
+    color: #1c1c1c;
+    font-family: "Roboto"; }
+  .wrapper_steps p {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    color: #333333;
+    font-family: "Roboto"; }
+  .wrapper_steps span {
+    font-size: 1rem;
+    color: #f47d50;
+    font-family: "Roboto";
+    font-weight: bold; }
+
+.step_background {
+  padding: 3% 3% 3% 20%;
+  background: url(../img/how_it_works/step.png) no-repeat left center; }
+
+.picture_indent {
+  padding-right: 40%; }

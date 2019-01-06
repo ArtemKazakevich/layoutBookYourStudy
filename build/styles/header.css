@@ -15,6 +15,8 @@
     font-family: "Roboto Condensed";
     text-decoration: none;
     outline: none; }
+    .wrapper_contacts a:hover {
+      border-bottom: 2px solid #ff6600; }
   .wrapper_contacts h2 {
     font-size: 1.5rem;
     font-family: "Roboto";
@@ -33,6 +35,8 @@
       text-align: right;
       text-decoration: none;
       outline: none; }
+      .wrapper_contacts p a:hover {
+        border-bottom: 2px solid #ff6600; }
 
 .wrapper_general_information {
   background: url(../img/header/Background.png) no-repeat;

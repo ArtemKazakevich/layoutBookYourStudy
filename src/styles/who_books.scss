@@ -1,0 +1,41 @@
+$fontFamily_1: "Roboto";
+$fontFamily_2: "Roboto Condensed";
+
+.wrapper_booking_training {
+  padding: 5% 10%;
+  & h2 {
+    font-size: 2.25rem;
+    color: #1c1c1c;
+    font-family: $fontFamily_2;
+  }
+}
+.booking_list {
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+
+  & h2 {
+    font-size: 1.5rem;
+    color: #1c1c1c;
+    font-family: $fontFamily_1;
+  }
+  & p {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    color: #333333;
+    font-family: $fontFamily_1;
+  }
+}
+.time {
+  width: 28%;
+  padding-top: 10%;
+  background: url(../img/who_books/time.png) no-repeat top left 50%;
+}
+.money {
+  @extend .time;
+  background: url(../img/who_books/money.png) no-repeat top left 50%;
+}
+.negotiations {
+  @extend .time;
+  background: url(../img/who_books/negotiations.png) no-repeat top left 50%;
+}

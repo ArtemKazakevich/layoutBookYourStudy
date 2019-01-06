@@ -1,0 +1,176 @@
+.wrapper_contacts {
+  padding: 0 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+  .wrapper_contacts a {
+    font-size: 1.5rem;
+    color: #1c1c1c;
+    font-family: "Roboto Condensed";
+    text-decoration: none;
+    outline: none; }
+  .wrapper_contacts h2 {
+    font-size: 1.5rem;
+    font-family: "Roboto";
+    margin-bottom: 0; }
+  .wrapper_contacts span {
+    font-size: 1.5rem;
+    font-family: "Roboto";
+    color: #b7b7b7; }
+  .wrapper_contacts p {
+    margin-top: 0; }
+    .wrapper_contacts p a {
+      font-size: 0.75rem;
+      line-height: 1.25rem;
+      color: #727272;
+      font-family: "Roboto";
+      text-align: right;
+      text-decoration: none;
+      outline: none; }
+
+.wrapper_general_information {
+  background: url(../img/header/Background.png) no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative; }
+  .wrapper_general_information img {
+    position: absolute;
+    right: 40%;
+    bottom: 10%; }
+
+.info {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 55%;
+  background: repeating-linear-gradient(135deg, #259f6b, #229463 5px) fixed;
+  opacity: 0.9;
+  padding: 7% 0 10% 10%; }
+  .info h1 {
+    font-size: 3.125rem;
+    color: #ffffff;
+    font-family: "Roboto Condensed";
+    margin-bottom: 0;
+    padding-right: 20%; }
+  .info h2 {
+    font-size: 1.25rem;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 300;
+    margin-top: 0;
+    margin-bottom: 5%;
+    padding-right: 20%; }
+  .info p {
+    font-size: 1rem;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 300;
+    padding-right: 20%; }
+  .info h3 {
+    font-size: 4rem;
+    color: #ffffff;
+    font-family: "Roboto Condensed";
+    font-weight: 300;
+    margin: 0; }
+  .info hr {
+    margin: 5% 0;
+    height: 0.4rem;
+    background: -webkit-gradient(linear, left top, left bottom, from(#249162), color-stop(50%, #249162), color-stop(50%, #53b58b), to(#53b58b));
+    background: linear-gradient(to bottom, #249162 0%, #249162 50%, #53b58b 50%, #53b58b 100%);
+    border: none; }
+
+.educational_institution {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding-right: 15%; }
+  .educational_institution p {
+    padding-right: 0%;
+    margin: 0; }
+  .educational_institution div {
+    width: 30%; }
+
+.launch {
+  padding: 7% 10% 10% 5%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 45%;
+  background: url(../img/header/Background_right.png) no-repeat;
+  background-size: cover;
+  opacity: 0.9; }
+  .launch h3 {
+    font-size: 1.125rem;
+    color: #ffffff;
+    font-family: "Roboto";
+    margin-bottom: 0; }
+  .launch p {
+    font-size: 3.125rem;
+    color: #ffffff;
+    font-family: "Roboto Condensed";
+    font-weight: 300;
+    margin: 0 0 10%; }
+  .launch button {
+    font-size: 0.875rem;
+    color: #0e0e0e;
+    font-family: "Roboto";
+    border: none;
+    background-color: white;
+    border-radius: 0.4rem;
+    padding: 3% 15%;
+    margin-top: 16%;
+    cursor: pointer; }
+
+.launch_date {
+  padding-left: 15%;
+  background: url(../img/header/missile.png) no-repeat left center; }
+
+.wrapper_count {
+  margin-top: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+
+.count {
+  width: 20%; }
+
+.count h4 {
+  font-size: 0.875rem;
+  color: #ffffff;
+  font-family: "Roboto";
+  text-align: center;
+  margin: 0; }
+
+.numbers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 7%;
+  border-radius: 0.3125rem;
+  margin-bottom: 5%; }
+  .numbers p {
+    font-size: 2.25rem;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 300;
+    padding: 10%;
+    background-color: black;
+    border-radius: 0.3125rem;
+    margin: 2%; }
+  .numbers span {
+    color: #9a5135; }

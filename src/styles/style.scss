@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "Roboto Condensed";
+  src: url(../fonts/Roboto_Condensed/RobotoCondensed-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Roboto";
+  src: url(../fonts/Roboto/Roboto-Regular.ttf) format("truetype");
+}
+
+
+html{
+  font-size: 16px;
+}
+body{
+  margin: 0;
+}
+
+
+@import "header";
+@import "share";
+@import "who_books";

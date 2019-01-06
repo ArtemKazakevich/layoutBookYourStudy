@@ -1,0 +1,183 @@
+$fontFamily_1: "Roboto";
+$fontFamily_2: "Roboto Condensed";
+
+.wrapper_contacts {
+  padding: 0 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  & a {
+    font-size: 1.5rem;
+    color: #1c1c1c;
+    font-family: $fontFamily_2;
+    text-decoration: none;
+    outline: none;
+  }
+  & h2 {
+    font-size: 1.5rem;
+    font-family: $fontFamily_1;
+    margin-bottom: 0;
+  }
+  & span {
+    font-size: 1.5rem;
+    font-family: $fontFamily_1;
+    color: #b7b7b7;
+  }
+  & p {
+    margin-top: 0;
+    & a {
+      font-size: 0.75rem;
+      line-height: 1.25rem;
+      color: #727272;
+      font-family: $fontFamily_1;
+      text-align: right;
+      text-decoration: none;
+      outline: none;
+    }
+  }
+}
+.wrapper_general_information {
+  background: url(../img/header/Background.png) no-repeat;
+  background-size: cover;
+  display: flex;
+  position: relative;
+  & img{
+    position: absolute;
+    right: 40%;
+    bottom: 10%;
+  }
+}
+.info {
+  box-sizing: border-box;
+  width: 55%;
+  background: repeating-linear-gradient(135deg,#259f6b,#229463 5px) fixed; 
+  opacity: 0.9;
+  padding: 7% 0 10% 10%;
+  & h1 {
+    font-size: 3.125rem;
+    color: #ffffff;
+    font-family: $fontFamily_2;
+    margin-bottom: 0;
+    padding-right: 20%;
+  }
+  & h2 {
+    font-size: 1.25rem;
+    color: #ffffff;
+    font-family: $fontFamily_1;
+    font-weight: 300;
+    margin-top: 0;
+    margin-bottom: 5%;
+    padding-right: 20%;
+  }
+  & p {
+    font-size: 1rem;
+    color: #ffffff;
+    font-family: $fontFamily_1;
+    font-weight: 300;
+    padding-right: 20%;
+  }
+  & h3 {
+    font-size: 4rem;
+    color: #ffffff;
+    font-family: $fontFamily_2;
+    font-weight: 300;
+    margin: 0;
+  }
+  & hr {
+    margin: 5% 0;
+    height: 0.4rem;
+    background: linear-gradient(
+      to bottom,
+      #249162 0%,
+      #249162 50%,
+      #53b58b 50%,
+      #53b58b 100%
+    );
+    border: none;
+  }
+}
+.educational_institution {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 15%;
+  & p {
+    padding-right: 0%;
+    margin: 0;
+  }
+  & div {
+    width: 30%;
+  }
+}
+.launch {
+  padding: 7% 10% 10% 5%;
+  box-sizing: border-box;
+  width: 45%;
+  background: url(../img/header/Background_right.png) no-repeat;
+  background-size: cover;
+  opacity: 0.9;
+  & h3 {
+    font-size: 1.125rem;
+    color: #ffffff;
+    font-family: $fontFamily_1;
+    margin-bottom: 0;
+  }
+  & p {
+    font-size: 3.125rem;
+    color: #ffffff;
+    font-family: $fontFamily_2;
+    font-weight: 300;
+    margin: 0 0 10%;
+  }
+  & button {
+    font-size: 0.875rem;
+    color: #0e0e0e;
+    font-family: $fontFamily_1;
+    border: none;
+    background-color: rgba($color: #ffffff, $alpha: 1);
+    border-radius: 0.4rem;
+    padding: 3% 15%;
+    margin-top: 16%;
+    cursor: pointer;
+  }
+}
+.launch_date {
+  padding-left: 15%;
+  background: url(../img/header/missile.png) no-repeat left center;
+}
+.wrapper_count {
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+.count {
+  width: 20%;
+}
+.count h4 {
+  font-size: 0.875rem;
+  color: #ffffff;
+  font-family: $fontFamily_1;
+  text-align: center;
+  margin: 0;
+}
+.numbers {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgba($color: #000000, $alpha: 0.5);
+  padding: 7%;
+  border-radius: 0.3125rem;
+  margin-bottom: 5%;
+  & p {
+    font-size: 2.25rem;
+    color: #ffffff;
+    font-family: $fontFamily_1;
+    font-weight: 300;
+    padding: 10%;
+    background-color: rgba($color: #000000, $alpha: 1);
+    border-radius: 0.3125rem;
+    margin: 2%;
+  }
+  & span {
+    color: #9a5135;
+  }
+}

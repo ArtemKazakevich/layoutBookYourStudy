@@ -1,0 +1,35 @@
+.wrapper_share {
+  padding: 0 10% 10%;
+  background: url(../img/share/city.png) no-repeat bottom, url(../img/share/action.png) no-repeat top left 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+
+.description_of_action {
+  padding: 3% 0 5% 20%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+  .description_of_action h2 {
+    font-size: 2.1rem;
+    color: #1c1c1c;
+    font-family: "Roboto Condensed"; }
+  .description_of_action span {
+    color: #fc8153; }
+  .description_of_action p {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    color: #333333;
+    font-family: "Roboto"; }
+  .description_of_action button {
+    font-size: 0.875rem;
+    color: #0e0e0e;
+    font-family: "Roboto";
+    cursor: pointer;
+    border-radius: 0.4rem;
+    border: 0.125rem #abafab solid;
+    background-color: #ffffff;
+    padding: 2% 8%;
+    margin-top: 3%; }

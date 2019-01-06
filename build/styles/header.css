@@ -132,7 +132,8 @@
     border-radius: 0.4rem;
     padding: 3% 15%;
     margin-top: 16%;
-    cursor: pointer; }
+    cursor: pointer;
+    outline: none; }
 
 .launch_date {
   padding-left: 15%;

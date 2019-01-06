@@ -55,7 +55,8 @@
     font-size: 1rem;
     color: #1c1c1c;
     font-family: "Roboto Condensed";
-    padding: 1%; }
+    padding: 1%;
+    outline: none; }
   .promotion_and_registration .form a {
     font-size: 0.875rem;
     color: #ffffff;

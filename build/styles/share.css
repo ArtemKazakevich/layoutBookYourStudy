@@ -1,6 +1,6 @@
 .wrapper_share {
   padding: 0 10% 10%;
-  background: url(../img/share/city.png) no-repeat bottom, url(../img/share/action.png) no-repeat top left 10%;
+  background: url(../img/share/city.png) repeat-x bottom, url(../img/share/action.png) no-repeat top left 10%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
